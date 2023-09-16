@@ -123,7 +123,7 @@ class DefaultMessageText4 extends StatelessWidget {
           : defaultPersePatterns,
       text: text,
       style: TextStyle(
-        fontSize: 15,
+        fontSize: 16,
         height: 1.2,
         fontFamily: 'Roboto',
         fontWeight: FontWeight.w400,

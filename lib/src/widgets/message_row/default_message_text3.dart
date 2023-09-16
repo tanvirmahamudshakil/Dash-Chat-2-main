@@ -192,7 +192,7 @@ class DefaultMessageText3 extends StatelessWidget {
           ? 'Your phone number has been sent.'
           : 'Your CV has been sent.',
       style: TextStyle(
-        fontSize: 15,
+        fontSize: 16,
         height: 1.2,
         fontFamily: 'Roboto',
         fontWeight: FontWeight.w400,

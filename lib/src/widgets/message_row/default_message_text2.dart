@@ -223,7 +223,7 @@ class DefaultMessageText2 extends StatelessWidget {
               ? "The recruiter has requested your Phone Number. Kindly accept the request to share your mobile number with the Recruiter."
               : "The recruiter has requested your CV. Kindly accept the request to share your CV with the Recruiter.",
           style: TextStyle(
-            fontSize: 15,
+            fontSize: 16,
             height: 1.2,
             fontFamily: 'Roboto',
             fontWeight: FontWeight.w400,

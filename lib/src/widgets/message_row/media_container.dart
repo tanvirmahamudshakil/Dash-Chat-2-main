@@ -69,7 +69,7 @@ class MediaContainer extends StatelessWidget {
                       maxWidth:
                           (MediaQuery.of(context).size.width * 0.68) - 80);
                   final numLines = tp.computeLineMetrics().length;
-                
+
                   return Stack(
                     fit: StackFit.loose,
                     children: [
@@ -82,7 +82,7 @@ class MediaContainer extends StatelessWidget {
                             '${message.user.firstName} ${message.user.lastName} CV',
                             style: const TextStyle(
                               color: Color(0xCC212427),
-                              fontSize: 14,
+                              fontSize: 16,
                               fontFamily: 'Roboto',
                               fontWeight: FontWeight.w400,
                             ),
@@ -281,7 +281,7 @@ class MediaContainer extends StatelessWidget {
               ? "Your phone number has been sent."
               : "Your CV has been sent.",
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 16,
             height: 1.2,
             fontFamily: 'Roboto',
             fontWeight: FontWeight.w400,
